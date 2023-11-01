@@ -14,8 +14,8 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","JuanclaA12");
         capabilities.setCapability("platformVersion","13");
-        capabilities.setCapability("appPackage","com.simplemobiletools.calendar");
-        capabilities.setCapability("appActivity","com.simplemobiletools.calendar.activities.MainActivity");
+        capabilities.setCapability("appPackage","com.sec.android.app.clockpackage");
+        capabilities.setCapability("appActivity","com.sec.android.app.clockpackage.ClockPackage");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
 

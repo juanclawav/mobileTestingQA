@@ -1,6 +1,6 @@
 package testSuite;
 
-import activities.calculator.MainCalendar;
+import activities.calendar.MainCalendar;
 import control.Label;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -28,8 +28,6 @@ public class CalendarTest {
         mainCalendar.searchBox.setText(EVENT_NAME);
         Label result = new Label(By.xpath("//android.widget.TextView[@text=\""+EVENT_NAME+"\"]"));
         Assertions.assertTrue(result.isControlDisplayed(),  "ERROR No se pudo crear el evento");
-
-
 
     }
     @AfterEach
